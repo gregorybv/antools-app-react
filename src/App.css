@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  background: #1E252B;
+  color: rgba(255, 255, 255, 0.55);;
+  font-family: Poppins, sans-serif;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------- */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/*=====================================*/
+[class*="__container"] {
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  [class*="__container"] {
+    max-width: none;
+    padding: 0 15px;
+  }
+}

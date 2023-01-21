@@ -1,0 +1,129 @@
+.popular {
+  margin-top: 181px;
+}
+.popular__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.popular__items {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.popular__item {
+  margin-top: 25px;
+  max-width: 427px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+.popular__mains {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+}
+.popular__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.popular__column {
+
+  max-width: 392px;
+  height: 294px;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.popular__column:hover {
+  background: url(../../../assets/img/popular/masc.svg) no-repeat rgba(40, 48, 54, 0.6);
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.popular__header {
+
+  display: flex;
+  gap: 30px;
+}
+.popular__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.popular__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.popular__text {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.popular__footer {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular__icons {
+  position: relative;
+  margin: 0 0 0 7px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.popular__column:hover .popular__icons::before{
+  content: url(../../../assets/img/popular/heart_red.png);
+  left: -15px;
+  top: -10px;
+  position: absolute;
+}
+
+.popular__visit {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: #1E252B;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0 35px 0 0;
+}
+.popular__column:hover .popular__visit{
+  padding: 9px 35px;
+  background: #FF6E30;
+  border-radius: 8px;
+  color:#FDF5FF;
+  margin: -9px 0 -9px -35px;
+}
+
+.popular__button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background: #1E252B;
+  padding: 17px 38px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #FF6E30;
+  cursor: pointer;
+}
+.popular__button:hover{
+  transform: scale(1.1);
+}
