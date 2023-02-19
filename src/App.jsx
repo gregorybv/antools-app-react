@@ -5,8 +5,6 @@ import Footer from "./components/Footer/Footer.jsx";
 import Main from "./components/Main/Main.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Header/>
